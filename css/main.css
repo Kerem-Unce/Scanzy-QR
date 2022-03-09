@@ -1,0 +1,358 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Andada+Pro&display=swap");
+.About .container .row .col-md-6 h2 {
+  font-family: "Balsamiq Sans", cursive !important;
+}
+
+.box {
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 30px 40px -20px #a3a5ae;
+          box-shadow: 0px 30px 40px -20px #a3a5ae;
+  padding: 1rem;
+  margin: 1rem;
+  z-index: -1;
+}
+
+.box p {
+  color: #a3a5ae;
+}
+
+.box > img {
+  float: right;
+}
+
+.cyan {
+  border-top: 3px solid #45d3d3;
+}
+
+.red {
+  border-top: 3px solid #FF400A;
+}
+
+.blue {
+  border-top: 3px solid #1B0776;
+}
+
+.orange {
+  border-top: 3px solid #FEBC0A;
+}
+
+h2 {
+  color: #4c4e61;
+  font-weight: 600;
+}
+
+header {
+  background: url(https://i.hizliresim.com/3s6dgfu.jpg);
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+
+/* DOWNLOADNOW */
+.DownloadNow .container .row .col-md-10 .mb-5 h1 {
+  color: #191654;
+  font-weight: 600;
+}
+
+.DownloadNow .container .row .col-md-10 .mb-5 p {
+  color: #b3b3b3;
+}
+
+.btn-animate {
+  color: #fff !important;
+  font-weight: 600 !important;
+  font-family: "Poppins", sans-serif !important;
+  text-transform: capitalize !important;
+}
+
+.btn-animate i {
+  margin-right: .5rem;
+}
+
+.text-box_Header {
+  position: relative;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: start !important;
+      -ms-flex-pack: start !important;
+          justify-content: start !important;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.text-box {
+  position: relative;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.btn:link, .btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 40px;
+  display: inline-block;
+  border-radius: 100px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  position: absolute;
+}
+
+.btn:hover {
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background-color: #FF400A;
+  color: #fff !important;
+}
+
+.btn:active {
+  -webkit-transform: translateY(-1px);
+          transform: translateY(-1px);
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+  background-color: #9733EE;
+  color: #777;
+}
+
+.btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.btn-white::after {
+  background-color: #FEBC0A;
+}
+
+.btn:hover::after {
+  -webkit-transform: scaleX(1.4) scaleY(1.6);
+          transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+
+.btn-animate {
+  -webkit-animation: moveInBottom 5s ease-out;
+          animation: moveInBottom 5s ease-out;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+@-webkit-keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+/* DOWNLOADNOW */
+/* ======PRICING===================================================================== */
+#Pricing div img {
+  position: absolute;
+  z-index: -1;
+  height: 90vh;
+  width: 100%;
+  -webkit-transform: scale(1, -1);
+          transform: scale(1, -1);
+}
+
+.pricing_card {
+  text-align: center;
+  padding: 3rem;
+  margin: 1rem 1rem;
+  border-radius: 5px;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05), 0 15px 40px rgba(166, 173, 201, 0.2);
+          box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05), 0 15px 40px rgba(166, 173, 201, 0.2);
+}
+
+.pricing_text {
+  margin: 3rem 0 3rem 0;
+  font-family: 'Rubik', sans-serif;
+}
+
+.pricing_text h5 {
+  color: #FEBC0A;
+  font-family: 'Acme', sans-serif;
+}
+
+.pricing_text h1 {
+  font-size: clamp(1.2rem, 10vw, 4rem);
+  color: #FF400A;
+  font-size: clamp(1.5rem, 20vw, 3rem);
+}
+
+.pricing_text p {
+  color: #cccccc;
+}
+
+.pricing_text h1 span {
+  color: #cccccc;
+  font-size: 1rem;
+}
+
+.GetStarted {
+  border-radius: 5px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #fff !important;
+  -webkit-box-shadow: 0 0 0 2px #FF400A;
+          box-shadow: 0 0 0 2px #FF400A;
+}
+
+.GetStarted:hover {
+  background-color: #FF400A;
+}
+
+/* END PRICING ============================================================================== */
+/* Slide button styling */
+.slide {
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 30px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.slide i {
+  opacity: 0;
+  font-size: 13px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  position: absolute;
+  right: 10px;
+  top: 21px;
+  -webkit-transition: -webkit-transform 1;
+  transition: -webkit-transform 1;
+  transition: transform 1;
+  transition: transform 1, -webkit-transform 1;
+}
+
+.slide div {
+  -webkit-transition: -webkit-transform 0.8s;
+  transition: -webkit-transform 0.8s;
+  transition: transform 0.8s;
+  transition: transform 0.8s, -webkit-transform 0.8s;
+}
+
+.slide:hover div {
+  -webkit-transform: translateX(-6px);
+          transform: translateX(-6px);
+}
+
+.slide::after {
+  content: "";
+  background-color: #FEBC0A;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+}
+
+.slide:hover i {
+  opacity: 1;
+  -webkit-transform: translateX(-6px);
+          transform: translateX(-6px);
+}
+
+/* End of Slide Button */
+.p-small {
+  font-size: 0.8rem !important;
+}
+
+footer .container .row .col-lg-6 p {
+  font-family: "Andada Pro", serif !important;
+  font-weight: 600;
+}
+
+footer {
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(#e2e5e7));
+  background: linear-gradient(white, #e2e5e7);
+}
+
+@media (max-width: 950px) and (min-width: 450px) {
+  .box {
+    text-align: center;
+  }
+}
+
+@media (min-width: 950px) {
+  .row1-container, .row2-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .box-down {
+    position: relative;
+    top: 150px;
+  }
+  .box {
+    width: 30%;
+  }
+  .header p {
+    width: 30%;
+  }
+}
+/*# sourceMappingURL=main.css.map */

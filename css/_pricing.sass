@@ -1,0 +1,91 @@
+/* ======PRICING=====================================================================
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+#Pricing div img
+    position: absolute
+    z-index: -1
+    height: 90vh
+    width: 100%
+    transform: scale(1,-1)
+.pricing_card
+  text-align: center
+  padding: 3rem
+  margin: 1rem 1rem
+  border-radius: 5px
+  transition: 1s
+  box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2)
+.pricing_text
+    h5
+        color: $theme-clr-2
+        font-family: 'Acme', sans-serif
+    h1
+        font-size: clamp(1.2rem, 10vw, 4rem)
+        color: $theme-clr
+        font-size: clamp(1.5rem, 20vw, 3rem)
+
+    p
+        color: hsl(0, 0%, 80%)
+    h1 span
+        color: hsl(0, 0%, 80%)
+        font-size: 1rem
+
+    margin: 3rem 0 3rem 0
+    font-family: 'Rubik', sans-serif    
+
+
+.GetStarted
+  border-radius: 5px
+  box-shadow: none
+  color: #fff !important
+  box-shadow: 0 0 0 2px $theme-clr
+
+  &:hover
+    background-color: $theme-clr
+
+
+/* END PRICING ==============================================================================
+
+
+
+    /* Slide button styling
+
+.slide
+  font-size: 20px
+  font-weight: 200
+  letter-spacing: 1px
+  padding: 13px 30px 13px
+  outline: 0
+  border: 1px solid black
+  cursor: pointer
+  position: relative
+  background-color: rgba(0, 0, 0, 0)
+
+  i
+    opacity: 0
+    font-size: 13px
+    transition: 0.2s
+    position: absolute
+    right: 10px
+    top: 21px
+    transition: transform 1
+
+  div
+    transition: transform 0.8s
+
+  &:hover div
+    transform: translateX(-6px)
+
+  &::after
+    content: ""
+    background-color: $theme-clr-2
+    width: 100%
+    z-index: -1
+    position: absolute
+    height: 100%
+    top: 7px
+    left: 7px
+
+  &:hover i
+    opacity: 1
+    transform: translateX(-6px)
+
+/* End of Slide Button
